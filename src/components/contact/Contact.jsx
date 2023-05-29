@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mt-[100px]">
-        <span className="text-white text-[14px] font-light text-center">
+        <span className="text-white text-[14px] font-light text-center mb-3">
           All rights reserved © 2023 Designed & built by Mohamed Baarar
         </span>
       </div>

@@ -8,6 +8,10 @@ module.exports = {
         text_grey: "rgba(255, 255, 255, 0.65)",
         text_green: "rgba(106, 255, 121, 0.65);",
       },
+      screens: {
+        small: { max: "980px" },
+        large: { min: "981px" },
+      },
     },
   },
   plugins: [],
