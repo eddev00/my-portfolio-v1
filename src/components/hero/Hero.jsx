@@ -3,22 +3,22 @@ import React from "react";
 const Hero = () => {
   return (
     
-    <div className="flex justify-center  text-white pt-[300px] w-[80%]  h-screen relative">
+    <div id='hero' className="flex justify-center   text-white pt-[200px] large:pt-[300px] max-w-[80%]  large:h-screen relative mx-auto large:pr-[400px]  overflow-hidden">
       <div className="flex flex-col z-[2]">
         <div>
           <span className="text-[#6AFF79] font-light">Hi, my name is</span>
         </div>
         <div>
-          <span className="text-[white] text-[64px] font-poppins font-[600]">
+          <span className="text-[white] small:text-[56px] text-[64px] font-poppins font-[600]">
             Mohamed Baarar.
           </span>
         </div>
         <div>
-          <span className="text-text_grey text-[64px] font-poppins font-[600]">
+          <span className="text-text_grey small:text-[56px] text-[64px] font-poppins font-[600]">
             I love <span className="text-text_green">building</span> things.
           </span>
         </div>
-        <div className="max-w-[600px]">
+        <div className="small:mt-3 max-w-[600px]">
           <span>
             As a software developer i'm passionate about a lot of things, web
             dev, video games dev, data field and machine learning. Aspiring to
@@ -31,8 +31,8 @@ const Hero = () => {
           <span># Contact me</span>
         </div>
       </div>
-      <div className="top-[20%] flex flex-col right z-[1] absolute w-full">
-           <img className="self-end opacity-[0.2]" src={require("./imgs/hero.gif")} alt="" />
+      <div className="top-[20%] small:top-[40%] flex flex-col right z-[1] absolute small:scale-150  w-full ">
+           <img className="self-end opacity-[0.2] h-auto w-auto " src={require("./imgs/hero.gif")} alt="" />
       </div>
     </div>
   );
